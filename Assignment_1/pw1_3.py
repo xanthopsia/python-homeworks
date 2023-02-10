@@ -15,6 +15,7 @@ if __name__ == "__main__":
             hours = float(input("Enter hours: "))
             rate = float(input("Enter rate: "))
             calcPay(hours,rate)
+            break
         except ValueError:
             print("Error, please enter numeric input")
             continue
